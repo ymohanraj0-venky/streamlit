@@ -13,6 +13,7 @@ name = st.text_input("Full Name")
 gender = st.selectbox("Gender", ["Male", "Female", "Other"])
 email = st.text_input("Email")
 phone = st.text_input("Phone Number")
+age = st.text_input("Age")
 
 # Date of Birth (Calendar with restriction)
 dob = st.date_input(

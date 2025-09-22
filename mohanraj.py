@@ -14,8 +14,8 @@ Age = st.text_input("Age")
 # --- Date of Birth with Calendar ---
 dop=st.date_input("Pick a date",
               min_value=datetime.date(1900, 1, 1),
-              max_value=datetime.date(2100, 12, 31))
-
+              max_value=datetime.date.today()
+                 )
 # --- Submit Button ---
 if st.button("Submit"):
     if name and email and phone:

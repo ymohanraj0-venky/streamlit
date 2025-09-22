@@ -11,6 +11,9 @@ phone = st.text_input("Phone Number")
 
 # --- Date of Birth with Calendar ---
 dob = st.date_input("Date of Birth (Select from Calendar)")
+st.date_input("Pick a date",
+              min_value=datetime.date(1900, 1, 1),
+              max_value=datetime.date(2100, 12, 31))
 
 # --- Submit Button ---
 if st.button("Submit"):

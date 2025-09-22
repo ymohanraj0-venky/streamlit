@@ -12,8 +12,7 @@ phone = st.text_input("Phone Number")
 Age = st.text_input("Age")
 
 # --- Date of Birth with Calendar ---
-dop=st.datetime("select the calaender")
-st.date_input("Pick a date",
+dop=st.date_input("Pick a date",
               min_value=datetime.date(1900, 1, 1),
               max_value=datetime.date(2100, 12, 31))
 

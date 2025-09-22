@@ -17,7 +17,7 @@ age = st.text_input("Age")
 
 # Date of Birth (Calendar with restriction)
 dob = st.date_input(
-    "Date of Birth (Must be 10+ years old)",
+    "Date of Birth (Must be 100+ years old)",
     max_value=max_date
 )
 
